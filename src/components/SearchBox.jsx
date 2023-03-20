@@ -18,6 +18,7 @@ export default function SearchBox() {
     e.preventDefault();
     if (!term.trim()) return; //<--предотвращаем отправку пустого запроса или пробела
     router.push(`/search/web?searchTerm=${term}`);
+    setTerm("");
   }
 
   return (
