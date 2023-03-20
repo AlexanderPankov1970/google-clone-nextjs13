@@ -13,7 +13,7 @@ export default function HomeSearch() {
   function handleSubmit(e) {
     e.preventDefault();
     if (!input.trim()) return;
-    console.log(11111, input);
+    // console.log(11111, input);
     router.push(`/search/web?searchTerm=${input}`);
     setInput("");
   }
