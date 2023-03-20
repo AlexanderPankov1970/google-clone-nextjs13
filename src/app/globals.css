@@ -9,4 +9,8 @@
     active:ring-green-500 hover:shadow-lg w-36 h-10
     transition-shadow;
   }
+
+  .link {
+    @apply hover:underline cursor-pointer;
+  }
 }

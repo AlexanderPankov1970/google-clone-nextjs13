@@ -57,7 +57,7 @@ export default function HomeSearch() {
           Google Search
         </button>
         <button
-          // отключаем кнопку пока идет загрузка и показан спиннер
+          // отключаем кнопку пока идет загрузка и показан спиннер:
           disabled={randomSearchLoading}
           onClick={randomSearch}
           className="btn flex items-center justify-center disabled:opacity-70"
