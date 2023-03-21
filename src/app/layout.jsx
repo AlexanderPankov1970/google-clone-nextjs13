@@ -9,7 +9,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      {/* Исправляем "плавающий"footer gg26 27 min */}
+      <body className="relative min-h-screen">
         {children}
         {/* Footer */}
         <Footer />
